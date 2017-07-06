@@ -1,0 +1,8 @@
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.Properties.Resources.resources
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\obj\Release\JsonClassGeneratorLib.csproj.GenerateResource.Cache
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\bin\Release\Xamasoft.JsonClassGenerator.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\bin\Release\Xamasoft.JsonClassGenerator.pdb
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\bin\Release\Newtonsoft.Json.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\bin\Release\System.Data.Entity.Design.PluralizationServices.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.pdb

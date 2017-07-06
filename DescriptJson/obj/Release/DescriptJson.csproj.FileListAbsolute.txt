@@ -1,0 +1,13 @@
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.frmDescriptJson.resources
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.Properties.Resources.resources
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.csproj.GenerateResource.Cache
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.csprojResolveAssemblyReference.cache
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\DescriptJson.exe.config
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\DescriptJson.exe
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\DescriptJson.pdb
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\Newtonsoft.Json.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\System.Data.Entity.Design.PluralizationServices.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\Xamasoft.JsonClassGenerator.dll
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Release\Xamasoft.JsonClassGenerator.pdb
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.exe
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Release\DescriptJson.pdb

@@ -1,0 +1,10 @@
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Debug\DescriptJson.exe.config
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Debug\DescriptJson.exe
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Debug\DescriptJson.pdb
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\bin\Debug\Xamasoft.JsonClassGenerator.pdb
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.csprojResolveAssemblyReference.cache
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.frmDescriptJson.resources
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.Properties.Resources.resources
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.csproj.GenerateResource.Cache
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.exe
+C:\WorkSpace\DescriptJson\DescriptJson\DescriptJson\obj\Debug\DescriptJson.pdb
