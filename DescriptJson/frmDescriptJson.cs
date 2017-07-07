@@ -129,7 +129,9 @@ namespace DescriptJson
             gen.Namespace = "Finda";
             gen.NoHelperClass = false;
             gen.SecondaryNamespace = null;
-            gen.TargetFolder = "C:\\WorkSpace";
+            System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(Application.StartupPath + @"\Data");
+            if (!di.Exists) { di.Create(); }
+            gen.TargetFolder = di.ToString();
             gen.UseProperties = true;
             gen.MainClass = edtMainClass.Text;
             gen.UsePascalCase = false;
