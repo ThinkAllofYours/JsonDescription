@@ -19,14 +19,7 @@ namespace DescriptJson
             cmbLanguage.Items.AddRange(CodeWriters);
         }
 
-        private void frmDescriptJson_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            var settings = Properties.Settings.Default;
-            settings.NamespaceStrategy = 1;
-            settings.Language = cmbLanguage.SelectedItem.GetType().Name;
-            settings.DocumentationExamples = true;
-            settings.Save();
-        }
+        private void frmDescriptJson_FormClosing(object sender, FormClosingEventArgs e) { }
 
         #region "Variable declaration"
 
@@ -49,10 +42,7 @@ namespace DescriptJson
             try
             {
                 gen.GenerateClasses();
-                StringBuilder sb = GenerateDescription(gen);
-                edtJsonDescription.Text = sb.ToString();
-                messageTimer.Stop();
-                messageTimer.Start();
+                edtJsonDescription.Text = GenerateDescription(gen).ToString();
             }
             catch (Exception ex)
             {
