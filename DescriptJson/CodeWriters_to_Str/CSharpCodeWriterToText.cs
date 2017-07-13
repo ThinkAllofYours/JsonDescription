@@ -108,32 +108,7 @@ namespace DescriptJson.CodeWriters_to_Str
 
             var prefix = config.UseNestedClasses && !type.IsRoot ? "            " : "        ";
 
-
-            var shouldSuppressWarning = config.InternalVisibility && !config.UseProperties && !config.ExplicitDeserialization;
-            if (shouldSuppressWarning)
-            {
-                sb.AppendLine("#pragma warning disable 0649");
-                if (!config.UsePascalCase) sb.AppendLine();
-            }
-
-            if (type.IsRoot && config.ExplicitDeserialization) WriteStringConstructorExplicitDeserialization(config, sb, type, prefix);
-
-            if (config.ExplicitDeserialization)
-            {
-                if (config.UseProperties) WriteClassWithPropertiesExplicitDeserialization(sb, type, prefix);
-                else WriteClassWithFieldsExplicitDeserialization(sb, type, prefix);
-            }
-            else
-            {
-                WriteClassMembers(config, sb, type, prefix);
-            }
-
-            if (shouldSuppressWarning)
-            {
-                sb.AppendLine()
-                  .AppendLine("#pragma warning restore 0649")
-                  .AppendLine();
-            }
+            WriteClassMembers(config, sb, type, prefix);
 
             
             if (config.UseNestedClasses && !type.IsRoot)
@@ -147,8 +122,7 @@ namespace DescriptJson.CodeWriters_to_Str
                 sb.AppendLine("    }");
             }
 
-
-            sb.AppendLine();
+            sb.AppendLine().AppendLine();
         }
 
 
